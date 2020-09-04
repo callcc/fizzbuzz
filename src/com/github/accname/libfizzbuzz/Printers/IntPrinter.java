@@ -1,4 +1,4 @@
-package com.github.accname.ffb.Printers;
+package com.github.accname.libfizzbuzz.Printers;
 
 public interface IntPrinter {
     public void printInteger();

@@ -1,10 +1,14 @@
-package com.github.accname.ffb.Factories;
+package com.github.accname.libfizzbuzz.Factories;
 
-import com.github.accname.ffb.FactoryClasses.FizzPrint;
-import com.github.accname.ffb.FactoryClasses.BuzzPrint;
-import com.github.accname.ffb.Printers.StrPrinter;
+import com.github.accname.libfizzbuzz.FactoryClasses.FizzPrint;
+import com.github.accname.libfizzbuzz.FactoryClasses.BuzzPrint;
+import com.github.accname.libfizzbuzz.Printers.StrPrinter;
 
 public class FizzBuzzFactory {
+    /*
+     * @return StrPrinter
+     * @param fizzOrBuzz String
+     */
     public StrPrinter getPrint(String fizzOrBuzz) {
         if(fizzOrBuzz == null) {
             return null;
